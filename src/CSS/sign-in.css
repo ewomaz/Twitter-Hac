@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-image: url(../images/another-two.avif);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 40%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(50px);
+  box-shadow: 0 0 10 rgba(0, 0, 0, -1);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: auto;
+  justify-content: center;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.ant-input {
+  padding: 9px 11px;
+  font-size: 16px;
+  border-radius: 8px;
+  line-height: 1.5;
+  border: 1px solid #d9d9d9;
+  background-color: #ffffff;
+}
+
+.ant-input:focus {
+  outline: 2px solid yellowgreen;
+}
+
+.ant-input:hover {
+  border: 2px solid yellowgreen;
+}
+
+#swer {
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sew {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.sew i {
+  font-size: 10px;
+  color: #ff4d4f;
+}
+
+.policy-section {
+  margin-bottom: 24px;
+}
+
+.policy-section-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.policy-section-btn p {
+  font-size: 16px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.policy-section-btn input p span {
+  color: #d9d9d9;
+}
+
+.policy-section-btn p span a {
+  color: #726bfc;
+  text-decoration: none;
+}
+
+.policy-section-btn p span a:hover {
+  color: aliceblue;
+}
+
+.register-btn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ant-reg {
+  background-color: aliceblue;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+  color: black;
+  border-radius: 8px;
+  font-size: 16px;
+  height: 44px;
+  width: 80%;
+}
+
+.ant-reg:hover {
+  background-color: rgb(64, 64, 242);
+  color: #ffffffff;
+}
+
+.mter {
+  margin-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.mter a {
+  color: #726bfc;
+  text-decoration: none;
+}
+
+.mter a:hover {
+  color: aliceblue;
+}
